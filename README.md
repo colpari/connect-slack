@@ -1,7 +1,7 @@
 # Connect your Slack workspace with colpari Connect
 
-* got to https://api.slack.com/apps/
-* choose "Create New App"
+#### Create new Slack App
+* Log in to https://api.slack.com/apps/ and choose "Create New App"
   * choose "From a manifest"
   * select the Slack workspace you want to connect with colpari
   * paste the following into the JSON tab of the popup window:
@@ -85,15 +85,15 @@
     }
     ```
   * click "Next", then "Create"
-* create "App Level Token"
+#### create "App Level Token"
   * On the app main screen, under "Basic Information" -> "App-Level Tokens" click "Generate Token and Scopes"
   * name the token as you like (e.g. colpariConnect) and "Add Scope" `connection:write`, click "Generate"
   * copy the presented token (App Level Token) for submitting to us
-* install app and create OAuth Tokens
+####  install app and create OAuth Tokens
   * On the app main screen, under "OAuth & Permissions" -> "OAuth Tokens" click "Install to workspace"
   * choose a channel to connect, click "Allow"
   * copy the presented "Bot User OAuth Token" for submitting to us
-* Done! Now we need the following information from you:
+####  Done! Now we need the following information from you:
   * "App Level Token" 
   * "Bot User OAuth Token"
   * channel name(s) to connect to colpari
